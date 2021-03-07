@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\继承与复合">
+      <UniqueIdentifier>{7937ac71-59e0-4c46-93d6-67b559061a82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\复数">
+      <UniqueIdentifier>{9c2b2c67-05a0-4bbb-aa4b-b3487ccadc58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\带有指针的类">
+      <UniqueIdentifier>{0d0ac89c-1c6f-43a6-bf2b-cd17d4a617b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\类模板">
+      <UniqueIdentifier>{93a49218-c35e-4b22-ad77-4ab13c802304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\继承与委托">
+      <UniqueIdentifier>{17c6f4f4-317b-4a1b-8fef-d455c6f82758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\类的关系">
+      <UniqueIdentifier>{4e3d3f46-0bd9-46e4-b78d-0cb722268c53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\继承虚方法">
+      <UniqueIdentifier>{4364e132-a642-467b-9f28-4c8dbf21a329}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\继承与委托-文件系统">
+      <UniqueIdentifier>{fedb12e4-1f22-4cc2-b7ed-109562e44671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\设计模式-原型">
+      <UniqueIdentifier>{831284aa-fa9c-408e-8318-75ceddc0cd0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\转换函数">
+      <UniqueIdentifier>{9a9cbed6-993c-4fa6-9e51-2372b743e9e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\智能指针">
+      <UniqueIdentifier>{2cfe1d00-e8e1-4e23-9ad6-c4e3fd19e6e8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CompisitionAndInheritance.h">
+      <Filter>头文件\继承与复合</Filter>
+    </ClInclude>
+    <ClInclude Include="OtherClass.h">
+      <Filter>头文件\继承与复合</Filter>
+    </ClInclude>
+    <ClInclude Include="complex.h">
+      <Filter>头文件\复数</Filter>
+    </ClInclude>
+    <ClInclude Include="MyString.h">
+      <Filter>头文件\带有指针的类</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
+      <Filter>头文件\带有指针的类</Filter>
+    </ClInclude>
+    <ClInclude Include="TComplex.h">
+      <Filter>头文件\类模板</Filter>
+    </ClInclude>
+    <ClInclude Include="类的三种关系.h">
+      <Filter>头文件\类的关系</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>头文件\继承与委托</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>头文件\继承虚方法</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFileSystem.h">
+      <Filter>头文件\继承与委托-文件系统</Filter>
+    </ClInclude>
+    <ClInclude Include="MyImage.h">
+      <Filter>头文件\设计模式-原型</Filter>
+    </ClInclude>
+    <ClInclude Include="ConversionFunction.h">
+      <Filter>头文件\转换函数</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoPointer.h">
+      <Filter>头文件\智能指针</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="complex.test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="namespaceTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CAndITest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
